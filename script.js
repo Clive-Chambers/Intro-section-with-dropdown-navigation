@@ -1,9 +1,9 @@
 (() => {
-  const openNavMenu = document.querySelector('.open-nav-menu'),
-    closeNavMenu = document.querySelector('.close-nav-menu'),
-    navMenu = document.querySelector('.nav-menu'),
-    menuOverlay = document.querySelector('.menu-overlay'),
-    mediaSize = 991;
+  const openNavMenu = document.querySelector('.open-nav-menu');
+  const closeNavMenu = document.querySelector('.close-nav-menu');
+  const navMenu = document.querySelector('.nav-menu');
+  const menuOverlay = document.querySelector('.menu-overlay');
+  const mediaSize = 991;
 
   openNavMenu.addEventListener('click', toggleNav);
   closeNavMenu.addEventListener('click', toggleNav);
