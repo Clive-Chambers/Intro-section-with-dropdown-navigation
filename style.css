@@ -16,6 +16,7 @@ body {
   font-size: 18px;
   line-height: 1.5;
   font-family: 'Epilogue', sans-serif;
+  background-color: var(--Almost-White);
 }
 
 body.hidden-scrolling {
@@ -49,7 +50,7 @@ a {
 }
 
 .header-main {
-  background-color: #fff;
+  background-color: var(--Almost-White);
   display: flex;
   align-items: center;
   padding: 1rem 0;
@@ -264,7 +265,7 @@ main.container {
   text-align: right;
 }
 .flex-wrapper .image-section picture img {
-  max-width: 35rem;
+  max-width: 30rem;
 }
 
 /* footer */
@@ -272,7 +273,7 @@ main.container {
 .attribution {
   font-size: 11px;
   text-align: center;
-  margin-top: 2rem;
+  margin-top: 5rem;
 }
 
 .attribution a {
